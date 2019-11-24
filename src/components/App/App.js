@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
+import {BrowserRouter, Route} from 'react-router-dom';
 
+import NavBar from '../NavBar/index';
 import Home from '../Home/index';
 import Contact from '../Contact/index';
 
@@ -8,10 +10,13 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="website-wrapper">
-        <Home />
-        <Contact />
-      </div>
+      <BrowserRouter>
+        <div className="website-wrapper">
+          <NavBar />
+          <Route path="/" component={Home} exact />
+          <Route path="/contact" component={Contact} exact />
+        </div>
+      </BrowserRouter>
     );
   }
 }

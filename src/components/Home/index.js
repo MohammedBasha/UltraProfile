@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 
-import NavBar from '../NavBar/index';
 import Banner from '../Banner/index';
 import Work from '../Work/index';
 import Portfolio from '../Portfolio/index';
@@ -16,7 +15,6 @@ class Home extends Component {
   render() {
     return (
       <div className="homepage-wrapper">
-        <NavBar />
         <Banner />
         <Work />
         <Portfolio />
