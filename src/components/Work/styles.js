@@ -29,7 +29,6 @@ export const WorkItem = styled.div`
     @media (max-width: 768px) {
         flex-basis: 100%;
         margin-left: 0;
-        
     }
 `
 
