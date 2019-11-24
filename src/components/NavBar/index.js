@@ -1,5 +1,6 @@
 import React from 'react';
-import {NavigationBar, Logo, LogoText, Nav, NavItem, ItemLink, ItemLink2} from './styles.js';
+import {NavLink} from 'react-router-dom';
+import {NavigationBar, Logo, LogoText, Nav, NavItem, ItemLink} from './styles.js';
 
 const NavBar = _ => {
     return (
@@ -10,16 +11,18 @@ const NavBar = _ => {
                 </Logo>
                 <Nav>
                     <NavItem>
-                        <ItemLink2 activeClassName="selected" to="/" exact>Home</ItemLink2>
+                        <ItemLink as={NavLink} activeClassName="selected" to="/" exact>
+                            Home
+                        </ItemLink>
                     </NavItem>
                     <NavItem><ItemLink href="#">Work</ItemLink></NavItem>
                     <NavItem><ItemLink href="#">Portfolio</ItemLink></NavItem>
                     <NavItem><ItemLink href="#">Resume</ItemLink></NavItem>
                     <NavItem><ItemLink href="#">About</ItemLink></NavItem>
                     <NavItem>
-                        <ItemLink2 activeClassName="selected" to="/contact" exact>
+                        <ItemLink as={NavLink} activeClassName="selected" to="/contact" exact>
                             Contact us
-                        </ItemLink2>
+                        </ItemLink>
                     </NavItem>
                 </Nav>
             </div>

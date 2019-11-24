@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import {NavLink} from 'react-router-dom'
+
 
 export const NavigationBar = styled.div`
     padding: 5px 0;
@@ -41,20 +41,9 @@ export const ItemLink = styled.a`
     text-decoration: none;
     padding: 10px 15px;
     font-weight: bold;
+    transition: color .3s ease-in-out;
 
-    &:hover {
-        color: #eb5424;
-    }
-`
-
-export const ItemLink2 = styled(NavLink)`
-    display: block;
-    color: #222;
-    text-decoration: none;
-    padding: 10px 15px;
-    font-weight: bold;
-
-    &:hover {
+    &:hover, &.selected {
         color: #eb5424;
     }
 `
