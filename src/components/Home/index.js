@@ -7,7 +7,6 @@ import Profile from '../Profile/index';
 import About from '../About/index';
 import SocialMedia from '../SocialMedia/index';
 import Contact from '../Contact/index';
-import Footer from '../Footer/index';
 
 import './index.css';
 
@@ -22,7 +21,6 @@ class Home extends Component {
         <About />
         <SocialMedia />
         <Contact />
-        <Footer />
       </div>
     );
   }

@@ -1,11 +1,12 @@
 import React from 'react';
-import './index.css';
+
+import {FooterWrapper} from './styles.js';
 
 const Footer = _ => {
     return (
-        <footer className="footer-wrapper">
-            Footer Section
-        </footer>
+        <FooterWrapper>
+            <p> copyright &copy; 2018 by ultra profile </p>
+        </FooterWrapper>
     )
 }
 
