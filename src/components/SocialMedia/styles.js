@@ -9,11 +9,12 @@ export const SocialMediaWrapper = styled.div`
     }
 `
 
-export const Social = styled.div`
+export const Social = styled.a`
     display: flex;
     align-items: center;
     flex: 1;
     padding: 100px 0 100px 60px;
+    text-decoration: none;
     background-color: ${props => props.color};
 
     @media (max-width:991px) {

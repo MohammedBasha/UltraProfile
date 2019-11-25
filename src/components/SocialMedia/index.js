@@ -19,11 +19,16 @@ const SocialMedia = _ => {
 
     const socialItems = socials.map(socialItem => {
         return (
-            <Social key={socialItem.id} color={socialItem.color}>
+            <Social
+                href={socialItem.link}
+                target="_blank"
+                key={socialItem.id}
+                color={socialItem.color}
+            >
                 <SocialIcon className={socialItem.icon}></SocialIcon>
                 <SocialLinks>
-                    <span class="info1">{socialItem.title}</span>
-                    <span class="info2">{socialItem.body}</span>
+                    <span className="info1">{socialItem.title}</span>
+                    <span className="info2">{socialItem.body}</span>
                 </SocialLinks>
             </Social>
         )
