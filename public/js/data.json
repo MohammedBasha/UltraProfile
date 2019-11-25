@@ -86,19 +86,22 @@
             "id": 1,
             "icon": "icon fa fa-facebook fa-lg",
             "title": "Follow Me on",
-            "body": "Social Facebook"
+            "body": "Social Facebook",
+            "color": "#3b5998"
         },
         {
             "id": 2,
             "icon": "icon fa fa-twitter fa-lg",
             "title": "Tweet Me on",
-            "body": "Social twitter"
+            "body": "Social twitter",
+            "color": "#498cbf"
         },
         {
             "id": 3,
             "icon": "icon fa fa-pinterest fa-lg",
             "title": "Pin Me on",
-            "body": "Social Pinterest"
+            "body": "Social Pinterest",
+            "color": "#cc2127"
         }
     ] 
 }
