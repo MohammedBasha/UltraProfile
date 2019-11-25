@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ultraprofile/static/css/main.271d8bfc.chunk.css",
+    "main.js": "/ultraprofile/static/js/main.509bb21a.chunk.js",
+    "main.js.map": "/ultraprofile/static/js/main.509bb21a.chunk.js.map",
+    "runtime-main.js": "/ultraprofile/static/js/runtime-main.791824dd.js",
+    "runtime-main.js.map": "/ultraprofile/static/js/runtime-main.791824dd.js.map",
+    "static/js/2.accc8baa.chunk.js": "/ultraprofile/static/js/2.accc8baa.chunk.js",
+    "static/js/2.accc8baa.chunk.js.map": "/ultraprofile/static/js/2.accc8baa.chunk.js.map",
+    "index.html": "/ultraprofile/index.html",
+    "precache-manifest.e51d444e377caa2c8658f897d5bc865d.js": "/ultraprofile/precache-manifest.e51d444e377caa2c8658f897d5bc865d.js",
+    "service-worker.js": "/ultraprofile/service-worker.js",
+    "static/css/main.271d8bfc.chunk.css.map": "/ultraprofile/static/css/main.271d8bfc.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.791824dd.js",
+    "static/js/2.accc8baa.chunk.js",
+    "static/css/main.271d8bfc.chunk.css",
+    "static/js/main.509bb21a.chunk.js"
+  ]
+}
