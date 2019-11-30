@@ -11,7 +11,7 @@ const NavBar = _ => {
                 </Logo>
                 <Nav>
                     <NavItem>
-                        <ItemLink as={NavLink} activeClassName="selected" to="/" exact>
+                        <ItemLink as={NavLink} activeClassName="selected" to="/UltraProfile/" exact>
                             Home
                         </ItemLink>
                     </NavItem>
@@ -20,7 +20,7 @@ const NavBar = _ => {
                     <NavItem><ItemLink href="#">Resume</ItemLink></NavItem>
                     <NavItem><ItemLink href="#">About</ItemLink></NavItem>
                     <NavItem>
-                        <ItemLink as={NavLink} activeClassName="selected" to="/contact" exact>
+                        <ItemLink as={NavLink} activeClassName="selected" to="/UltraProfile/contact" exact>
                             Contact us
                         </ItemLink>
                     </NavItem>
