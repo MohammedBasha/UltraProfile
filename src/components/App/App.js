@@ -14,8 +14,8 @@ class App extends Component {
       <BrowserRouter>
         <div className="website-wrapper">
           <NavBar />
-          <Route path="/" component={Home} exact />
-          <Route path="/contact" component={Contact} exact />
+          <Route path="/UltraProfile/" component={Home} exact />
+          <Route path="/UltraProfile/contact" component={Contact} exact />
           <Footer />
         </div>
       </BrowserRouter>
